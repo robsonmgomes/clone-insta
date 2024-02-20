@@ -1,24 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clone Instagram</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clone Instagram</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <!-- Area wrapper -->
     <div id="wrapper">
-      
       <!-- Area container -->
       <div id="container">
-
         <!-- Início area esquerda -->
         <div class="column left">
-          <div class="main">
-
-          </div>
+          <div class="main"></div>
         </div>
         <!-- Fim area esquerda -->
 
@@ -29,22 +24,65 @@
               <h1>Instamatch</h1>
             </div>
             <form action="">
-              <input type="text" placeholder="Telefone, usuário ou email" name="username" required>
-              <input type="password" placeholder="Senha" name="password" required minlength="8">
+              <input
+                type="text"
+                placeholder="Telefone, usuário ou email"
+                name="username"
+                required
+              />
+              <input
+                type="password"
+                placeholder="Senha"
+                name="password"
+                required
+                minlength="8"
+              />
 
-              <input type="submit" value="Entrar">
+              <input type="submit" value="Entrar" />
             </form>
           </div>
 
           <div class="infobox">
-            <p>Não possui uma conta? <a href="#">Cadastre-se</a></p>
+            <p>Não possui uma conta? <a href="cadastro.html">Cadastre-se</a></p>
           </div>
 
+          <div class="get-app-panel">
+            Obtenha o aplicativo.
+            <div class="app-buttons">
+              <a href="#">
+                <img src="./assets/appstore.png" alt="Baixe na App Store">
+              </a>
+
+              <a href="#">
+                <img src="./assets/googleplay.png" alt="Baixe no Google Play">
+              </a>
+            </div>
+          </div>
         </div>
-        <!-- Fim area direita -->
-
+        <!-- Fim area direita -->        
       </div>
-    </div>
+      <!-- Fim área container -->
 
-</body>
+      <!-- Início footer -->
+        <footer>
+          <div class="footer-iner">
+            <a href="#">About us</a>
+            <a href="#">Support</a>
+            <a href="#">Blog</a>
+            <a href="#">Press</a>
+            <a href="#">Api</a>
+            <a href="#">Jobs</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Directory</a>
+            <a href="#">Profiles</a>
+            <a href="#">Hashtags</a>
+            <a href="#">Language</a>
+            <div class="text-small">@2022 Instagram</div>
+          </div>
+          
+        </footer>
+        <!-- Fim footer -->
+    </div>
+  </body>
 </html>
