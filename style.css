@@ -4,6 +4,17 @@
   src: url(./fonts/Christmas\ Bell.otf) format("truetype");
 }
 
+/* Variáveis CSS */
+:root {
+  --background: #fafafa;
+  --white: #ffffff;
+  --black: #000000;
+  --blue: #3c96ed;
+  --gray: #a1a1a1;
+  --border: #e6e6e6
+
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,12 +22,12 @@
 }
 
 a {
-  color: #3c96ed;
+  color: var(--blue);
   text-decoration: none;
 }
 
 body {
-  background: #fafafa;
+  background: var(--background);
   height: 100%;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
@@ -56,8 +67,8 @@ body {
 }
 
 .login-panel {
-  background-color: #fff;
-  border: 1px solid #e6e6e6;
+  background-color: var(--white);
+  border: 1px solid var(--border);
   text-align: center;
   padding: 20px 0;
 }
@@ -79,7 +90,7 @@ form {
 
 input[type="password"],
 input[type="text"] {
-  background-color: #fff;
+  background-color: var(--white);
   border: 1px solid rgb(236, 236, 234);
   height: 40px;
   border-radius: 4px;
@@ -87,7 +98,7 @@ input[type="text"] {
   padding: 10px;
   font-size: 13px;
   width: 320px;
-  color: #000000;
+  color: var(--black);
 }
 
 input[type="password"]::placeholder,
@@ -99,7 +110,7 @@ input[type="text"]::placeholder {
 input[type="password"]:focus,
 input[type="text"]:focus {
   outline: 0;
-  border: 1px solid #a1a1a1;
+  border: 1px solid var(--gray);
   user-select: none;
 }
 
@@ -108,7 +119,7 @@ input[type="submit"] {
   margin-top: 10px;
   height: 30px;
   border: 0;
-  background-color: #3c96ed;
+  background-color: var(--blue);
   border-radius: 4px;
   color: #fff;
   font-size: 16px;
@@ -118,7 +129,7 @@ input[type="submit"] {
 }
 
 .infobox {
-  background-color: #fff;
+  background-color: var(--white);
   height: 60px;
   border: 1px solid rgb(236, 234, 234);
   margin: 10px auto 0;
@@ -157,7 +168,7 @@ footer {
 }
 
 footer a {
-  color: #000;
+  color: var(--black);
   text-transform: uppercase;
   font-weight: bold;
   margin-right: 8px;
@@ -166,7 +177,7 @@ footer a {
 .text-small {
   font-size: 12px;
   font-weight: bold;
-  color: grey;
+  color: var(--gray);
   text-transform: uppercase;
   padding-left: 20px;
   display: inline-block;
@@ -197,8 +208,8 @@ footer a {
   width: 320px;
   margin: 10px 0;
   height: 35px;
-  background-color: #3c96ed;
-  color: #fff;
+  background-color: var(--blue);
+  color: var(--white);
   border: 0;
   border-radius: 4px;
   font-size: 15px;
@@ -215,7 +226,7 @@ footer a {
 
 .line {
   height: 1px;
-  background-color: #e6e6e6;
+  background-color: var(--border);
   width: 35%;
 }
 
