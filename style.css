@@ -227,6 +227,11 @@ footer a {
 
 /* Responsividade */
 @media (max-width: 850px) {
+
+  #wrapper {
+    height: 95vh
+  }
+  
   .left {
     display: none;
   }
@@ -237,10 +242,14 @@ footer a {
 
   .right {
     padding-left: 0;
-  }
+  }  
 }
 
 @media (max-width: 560px) {
+  #wrapper {
+    height: 98vh
+  }
+  
   #container {
     width: 90%;
   }
