@@ -226,12 +226,7 @@ footer a {
 }
 
 /* Responsividade */
-@media (max-width: 850px) {
-
-  #wrapper {
-    height: 95vh
-  }
-  
+@media (max-width: 850px) {  
   .left {
     display: none;
   }
@@ -245,11 +240,7 @@ footer a {
   }  
 }
 
-@media (max-width: 560px) {
-  #wrapper {
-    height: 98vh
-  }
-  
+@media (max-width: 560px) {  
   #container {
     width: 90%;
   }
